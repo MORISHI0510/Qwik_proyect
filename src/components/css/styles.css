@@ -1,0 +1,21 @@
+.custom-left-column {
+    background-color: #b41515; /* Cambia el color de fondo del lado izquierdo */
+    padding: 20px; /* Agrega espacio interior */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0% 40% 0% 0%;
+  }
+
+.custom-left-column div {
+    text-align: center; /* Centra el contenido adicional */
+    color: #333; /* Cambia el color del texto */
+  }
+  
+  /* Opcional: ajusta el tamaño de la imagen en diferentes pantallas */
+  @media (max-width: 768px) {
+    .custom-left-column img {
+      width: 80%;
+    }
+  }
+  
